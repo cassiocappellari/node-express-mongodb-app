@@ -1,4 +1,6 @@
+const path = require('path')
 const nodemailer = require('nodemailer')
+const hbs = require('nodemailer-express-handlebars') // importa o módulo de templates de email
 
 const {host, port, user, pass} = require('../config/mail.json')
 
@@ -7,5 +9,11 @@ const transport = nodemailer.createTransport({
     port,
     auth: {user, pass}
 })
+
+transport.use('compile', hbs({
+    viewEngine: 'handlebars',
+    viewPath: path.resolve('./src/resources/mail/'),
+    extName: '.html'
+}))
 
 module.exports = transport
