@@ -40,7 +40,7 @@ This application was built from scratch with **JavaScript**, **Node.js**, **Expr
 - POST: ```base_url/auth/forgot_password```
 - POST: ```base_url/auth/reset_password```
 
-**Projects CRUD:**
+**CRUD Projects:**
 
 - GET: ```base_url/projects/```
 - GET: ```base_url/projects/:projectId```
