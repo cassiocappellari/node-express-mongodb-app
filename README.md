@@ -43,7 +43,11 @@ The project was developed using this technologies:
 ```bash
 # Clone this repository
 
-$ git clone https://github.com/cassiocappellari/node-express-mongodb-app/
+$ git clone https://github.com/cassiocappellari/node-express-mongodb-app.git
+
+# Enter the project folder
+
+$ cd node-express-mongodb-app
 
 # Install the dependencies
 
@@ -51,7 +55,7 @@ $ npm install
 
 # Start the project
 
-$ npm start
+$ node src/index.js
 
 ```
 
