@@ -19,9 +19,13 @@
 ## 📋 Index
 
 - [About](#-about)
+- [Routes](#-routes)
 - [Technologies](#-technologies)
 - [How To Use](#-how-to-use)
 - [Author](#-author)
+- [License](#-license)
+
+License
 
 ## 🚀 About
 
