@@ -15,3 +15,7 @@
 	<img alt="Stargazers" src="https://img.shields.io/github/stars/cassiocappellari/node-express-mongodb-app?style=social">
 </a>
 </p>
+
+## 📝 License
+
+This project is under the [MIT](./LICENSE) license.
