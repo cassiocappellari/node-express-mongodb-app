@@ -31,12 +31,11 @@ This application was built from scratch with **JavaScript**, **Node.js**, **Expr
 
 The project was developed using this technologies:
 
-**Database:**
 - [MongoDB](https://www.mongodb.com/)
-
-**Back-end:**
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
+- [Nodemailer](https://nodemailer.com/about/)
+- [JWT](https://www.npmjs.com/package/jsonwebtoken)
 
 ## ⚙ How to Use
 
