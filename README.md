@@ -29,24 +29,28 @@
 
 ## 🚀 About
 
-This application was built from scratch with **JavaScript**, **Node.js**, **Express**, **MongoDB** and using MVC software design patterns. In this API was created routes for user registration with encrypted password which authenticates users by returning a **JWT token** to validate the login, with a feature that provides **password recovery through Nodemailer**.
+This application was built from scratch using **JavaScript**, **Node.js**, **Express** and **MongoDB** with MVC software design patterns. In this API was created routes for user registration with encrypted password which authenticates users by returning a **JWT token** to validate the login, with a feature that provides **password recovery through Nodemailer**.
 
 ## 🗺️ Routes
 
 **User Authentication:**
 
-- POST: ```base_url/auth/register```
-- POST: ```base_url/auth/authenticate```
-- POST: ```base_url/auth/forgot_password```
-- POST: ```base_url/auth/reset_password```
+|route|HTTP Method|params|description
+|:---|:---:|:---:|:---:
+|`/auth/register`|POST| - | - 
+|`/auth/authenticate`|POST| - | - 
+|`/auth/forgot_password`|POST| - | - 
+|`/auth/reset_password`|POST| - | - 
 
 **CRUD Projects:**
 
-- GET: ```base_url/projects/```
-- GET: ```base_url/projects/:projectId```
-- POST: ```base_url/projects/```
-- PUT: ```base_url/projects/:projectId```
-- DELETE: ```base_url/projects/:projectId```
+|route|HTTP Method|params|description
+|:---|:---:|:---:|:---:
+|`/projects`|GET| - | - 
+|`/projects/:projectId`|GET| - | - 
+|`/projects`|POST| - | - 
+|`/projects/:projectId`|PUT| - | - 
+|`/projects/:projectId`|DELETE| - | - 
 
 ## 🤖 Technologies
 
