@@ -37,10 +37,10 @@ This application was built from scratch using **JavaScript**, **Node.js**, **Exp
 
 |route|HTTP Method|params|description
 |:---|:---:|:---:|:---:
-|`/auth/register`|POST| - | - 
-|`/auth/authenticate`|POST| - | - 
-|`/auth/forgot_password`|POST| - | - 
-|`/auth/reset_password`|POST| - | - 
+|`/auth/register`|POST|Request body with `name`, `email` and `password`|Register a user
+|`/auth/authenticate`|POST|Request body with `email` and `password`|Authenticate a user
+|`/auth/forgot_password`|POST|Request body with `email`|Sends a new access token to the email entered in the request body
+|`/auth/reset_password`|POST|Request body with `email`, `token` and `password`|Reset the access password through the registered email and the access token provided by email on the `forgot_password` route
 
 **CRUD Projects:**
 
