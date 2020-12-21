@@ -42,6 +42,41 @@ This application was built from scratch using **JavaScript**, **Node.js**, **Exp
 |`/auth/forgot_password`|POST|Request body with `email`|Sends a new access token to the email entered in the request body
 |`/auth/reset_password`|POST|Request body with `email`, `token` and `password`|Reset the access password through the registered email and the access token provided by email on the `forgot_password` route
 
+**Requests**
+
+- POST: `/auth/register`
+```json
+{
+	"name": "Exemple",
+	"email": "exemple@gmail.com",
+	"password": "123456"
+}
+```
+
+- POST: `/auth/authenticate`
+```json
+{
+	"email": "exemple@gmail.com",
+	"password": "12345678"
+}
+```
+
+- POST: `/auth/forgot_password`
+```json
+{
+	"email": "exemple@gmail.com"
+}
+```
+
+- POST: `/auth/reset_password`
+```json
+{
+	"email": "exemple@gmail.com",
+	"token": "ebf60c2e5be235f96c0c0571c04fad1f843da9c7",
+	"password": "1234567890"
+}
+```
+
 **CRUD Projects:**
 
 |route|HTTP Method|params|description
@@ -51,6 +86,32 @@ This application was built from scratch using **JavaScript**, **Node.js**, **Exp
 |`/projects`|POST|Request body with `title`, `description` and `tasks`|Creates a new project
 |`/projects/:projectId`|PUT|Query parameter with `projectId`|Updates a specific project through it's id
 |`/projects/:projectId`|DELETE|Query parameter with `projectId`|Deletes a specific project through it's id
+
+**Requests**
+
+- GET: `/projects/5fd537a24c1f4316c1d21f2d`
+
+- POST: `/projects`
+```json
+{
+	"title": "New Project Test 2",
+	"description": "Project description Test",
+	"tasks": [
+		{
+			"title": "New task Test 2",
+			"assignedTo": "5fd537a24c1f4316c1d21f2d"
+		},
+		{
+			"title": "Another task Test 2",
+			"assignedTo": "5fd537a24c1f4316c1d21f2d"
+		}
+	]
+}
+```
+
+- PUT: `/projects/5fd537a24c1f4316c1d21f2d`
+
+- DELETE: `/projects/5fd537a24c1f4316c1d21f2d`
 
 ## 🤖 Technologies
 
