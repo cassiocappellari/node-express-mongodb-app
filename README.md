@@ -46,11 +46,11 @@ This application was built from scratch using **JavaScript**, **Node.js**, **Exp
 
 |route|HTTP Method|params|description
 |:---|:---:|:---:|:---:
-|`/projects`|GET| - | - 
-|`/projects/:projectId`|GET| - | - 
-|`/projects`|POST| - | - 
-|`/projects/:projectId`|PUT| - | - 
-|`/projects/:projectId`|DELETE| - | - 
+|`/projects`|GET| - |Lists the projects registered in the database
+|`/projects/:projectId`|GET|Query parameter with `projectId`|Lists a specific project through it's id
+|`/projects`|POST|Request body with `title`, `description` and `tasks`|Creates a new project
+|`/projects/:projectId`|PUT|Query parameter with `projectId`|Updates a specific project through it's id
+|`/projects/:projectId`|DELETE|Query parameter with `projectId`|Deletes a specific project through it's id
 
 ## 🤖 Technologies
 
