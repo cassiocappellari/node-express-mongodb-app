@@ -29,7 +29,7 @@
 
 ## 🚀 About
 
-This application was built from scratch using **JavaScript**, **Node.js**, **Express** and **MongoDB** with MVC software design patterns. In this API was created routes for user registration with encrypted password which authenticates users by returning a **JWT token** to validate the login, with a feature that provides **password recovery through Nodemailer**.
+This application was built using **JavaScript**, **Node.js**, **Express** and **MongoDB** with MVC architectural pattern. In this API was created routes for user registration using encrypted password which authenticates users by returning a JWT token to validate the login, with a feature that **provides password recovery by email through Nodemailer**.
 
 ## 🗺️ Routes
 
