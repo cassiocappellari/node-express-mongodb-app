@@ -87,7 +87,7 @@ This application was built using **JavaScript**, **Node.js**, **Express** and **
 
 **Requests**
 
-- GET: `/projects/5fd537a24c1f4316c1d21f2d`
+- GET: `/projects/:projectId`
 
 - POST: `/projects`
 ```json
@@ -107,9 +107,9 @@ This application was built using **JavaScript**, **Node.js**, **Express** and **
 }
 ```
 
-- PUT: `/projects/5fd537a24c1f4316c1d21f2d`
+- PUT: `/projects/:projectId`
 
-- DELETE: `/projects/5fd537a24c1f4316c1d21f2d`
+- DELETE: `/projects/:projectId`
 
 ## 🤖 Technologies
 
